@@ -1,0 +1,22 @@
+-- 工具生成： 
+-- 每一行为一个数据，下标从 1 - n 
+-- 每一列对应表中的一个键值对 
+data = { 
+	 [1] = { 
+	 	id = 1, 
+	 	layer = 0, 
+	 	name = "CardUI", 
+	 }, 
+	 [2] = { 
+	 	id = 2, 
+	 	layer = 1, 
+	 	name = "TopUI", 
+	 }, 
+	 [3] = { 
+	 	id = 3, 
+	 	layer = 2, 
+	 	name = "PauseUI", 
+	 }, 
+}
+return data
+

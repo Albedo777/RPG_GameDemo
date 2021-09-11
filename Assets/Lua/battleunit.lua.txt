@@ -1,0 +1,37 @@
+-- 工具生成 -- 规则： 
+-- 每一行为一个数据，下标从 1 - n 
+-- 每一列对应表中的一个键值对 
+data = { 
+	 [1] = { 
+	 	id = 1, 
+	 	attack = 10, 
+	 	Hp = 100, 
+	 	modelName = "Magician", 
+	 }, 
+	 [2] = { 
+	 	id = 2, 
+	 	attack = 2, 
+	 	Hp = 50, 
+	 	modelName = "EnemyWolf", 
+	 }, 
+	 [3] = { 
+	 	id = 3, 
+	 	attack = 2, 
+	 	Hp = 50, 
+	 	modelName = "EnemyWolf", 
+	 }, 
+	 [4] = { 
+	 	id = 4, 
+	 	attack = 3, 
+	 	Hp = 50, 
+	 	modelName = "EnemyWolfDiamond", 
+	 }, 
+	 [5] = { 
+	 	id = 5, 
+	 	attack = 3, 
+	 	Hp = 50, 
+	 	modelName = "EnemyWolfDiamond", 
+	 }, 
+}
+return data
+

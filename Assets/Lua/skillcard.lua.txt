@@ -1,0 +1,37 @@
+-- 工具生成 -- 规则： 
+-- 每一行为一个数据，下标从 1 - n 
+-- 每一列对应表中的一个键值对 
+data = { 
+	 [1] = { 
+	 	id = 1, 
+	 	iconName = "SkillIcon1008", 
+	 	cost = 2, 
+	 	modelName = "Skill1008", 
+	 }, 
+	 [2] = { 
+	 	id = 2, 
+	 	iconName = "SkillIcon1009", 
+	 	cost = 5, 
+	 	modelName = "Skill1009", 
+	 }, 
+	 [3] = { 
+	 	id = 3, 
+	 	iconName = "SkillIcon1010", 
+	 	cost = 4, 
+	 	modelName = "Skill1010", 
+	 }, 
+	 [4] = { 
+	 	id = 4, 
+	 	iconName = "SkillIcon1011", 
+	 	cost = 2, 
+	 	modelName = "Skill1011", 
+	 }, 
+	 [5] = { 
+	 	id = 5, 
+	 	iconName = "SkillIcon1012", 
+	 	cost = 3, 
+	 	modelName = "Skill1012", 
+	 }, 
+}
+return data
+

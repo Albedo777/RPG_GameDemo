@@ -16,13 +16,20 @@ RPG游戏Demo:自实现的简单的 RPG 游戏示例。
 
 ## 游戏效果演示
 * 技能释放器
-* 技能卡牌拖动
-* 开牌UI，头像UI，暂停UI
+* 技能卡牌拖动释放技能
+* 技能5s后自动回收
+* 卡牌UI，头像UI，暂停UI
 * 敌人反射材质，AI攻击
 ![image](https://github.com/Albedo777/RPG_GameDemo/blob/main/Demo.png)
 
 ## 配置工具
+* 读取xlxs文件，并生成指定格式的Lua文件
+* 利用xlua和反射，在C#中将数据读取到数据类中
 ![image](https://github.com/Albedo777/RPG_GameDemo/blob/main/Editor.png)
 
 ## 行为树
+定义了敌人的行为
+* 如果敌人在索敌范围内，则跑向敌人
+* 如果敌人在索敌成功并且敌人在攻击范围内，则进行攻击
+* 如果索敌失败，则进入等待状态
 ![image](https://github.com/Albedo777/RPG_GameDemo/blob/main/BehaviorTree.png)
